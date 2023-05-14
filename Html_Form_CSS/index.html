@@ -1,0 +1,81 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Cadastro de Usuário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="box">
+
+        <h1>Cadastro de Usuário</h1>
+
+        <form>
+
+            <div class="d1">
+                <label for="nome">Nome</label>
+                <input id="nome" name="nome" type="text" placeholder="Digite um nome" required minlength="5"
+                    class="formatinput">
+            </div>
+
+            <div class="d1">
+                <label for="email">E-Mail</label>
+                <input id="email" type="email" required placeholder="nome@email.com" class="formatinput">
+            </div>
+
+            <div class="d1">
+                <label for="senha">Senha</label>
+                <input id="senha" type="password" minlength="6" required class="formatinput">
+            </div>
+
+            <div class="d2">
+                <label>Escolha suas frutas favoritas</label>
+                <input id="laranja" type="checkbox" value="laranja"><label for="laranja" class="checkBox">Laranja</label>
+                <input id="maca" type="checkbox" value="maca"><label for="maca" class="checkBox">Maçã</label>
+                <input id="banana" type="checkbox" value="banana"><label for="banana" class="checkBox">Banana</label>
+            </div>
+
+            <div class="d2">
+                <label>Sexo</label>
+                <input name="sexo" id="f" type="radio" value="f"><label for="f" class="radioB">F</label>
+                <input name="sexo" id="m" type="radio" value="m"><label for="m" class="radioB">M</label>
+            </div>
+
+            <div class="d1">
+                <label for="cor">Escolha uma cor</label>
+                <input id="cor" type="color" class="formatinput">
+            </div>
+
+            <div class="d1">
+                <label for="aniversario">Data de Aniversário</label>
+                <input id="aniversario" type="date" required class="formatinput">
+            </div>
+
+            <div class="d1">
+                <label for="idade">Idade</label>
+                <input id="idade" type="number" min="10" class="formatinput">
+            </div>
+
+            <div class="d2">
+                <label for="nota">Nota</label>
+                <input id="nota" type="range" min="0" max="10" class="formatinput">
+            </div>
+
+            <div class="d1">
+                <label for="pagina">Página</label>
+                <input id="pagina" type="url" placeholder="https://suapagina.com" class="formatinput">
+            </div>
+
+            <div class="d1">
+                <input type="submit" value="Cadastrar">
+            </div>
+        </form>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+body{
+    height: 100vh;
+    background-color: bisque;
+    /* gradiante linear: */
+    /* background: linear-gradient(white,purple,black); */
+    /* background: linear-gradient( to top, white,purple,black);
+    background: linear-gradient( to right, white,purple,black);
+    background: linear-gradient( to left, white,purple,black);
+    background: linear-gradient( to top right, white,purple,black);
+    background: linear-gradient( to top left, white,purple,black);
+    background: linear-gradient( to bottom right, white,purple,black);
+    background: linear-gradient( to bottom left, white,purple,black); */
+
+    /*-----------------------------------------------------------------*/
+
+    /* gradiante radial: */
+    /* background: radial-gradient(white,purple,black); */
+
+    /*-----------------------------------------------------------------*/
+
+    /* gradiante linear repetitivo: */
+    /* background: repeating-linear-gradient(white 10%,purple 15%, black 20%); */
+
+    /*-----------------------------------------------------------------*/
+
+    /* gradiante radial repetitivo: */
+
+    /* background: repeating-radial-gradient(white 10%,purple 15%, black 20%); */
+
+    /*-----------------------------------------------------------------*/
+}
+
+.gradient1{
+    background: linear-gradient(white,purple,black);
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.gradient2{
+    background: linear-gradient( to top, white,purple,black);
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.gradient3{
+    background: radial-gradient(white,purple,black);
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.gradient4{
+    background: repeating-linear-gradient(white 10%,purple 15%, black 20%);
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.gradient5{
+    background: repeating-radial-gradient(white 10%,purple 15%, black 20%);
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
