@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(214, 236, 255);
+}
+
+.exemplo{
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    margin-top: 30%;
+    background: linear-gradient(white,blue,black);
+    transition: transform 500ms linear;
+}
+
+/* transform de rotação */
+/* .exemplo:hover{
+    transform: rotate(-180deg);
+} */
+
+/* transform de escala */
+/* .exemplo:hover{
+    transform: scale(1.5,1.5);
+} */
+
+/* transform de transição (movimentação) */
+/* .exemplo:hover{
+    transform: translate(0px, 50px);
+} */
+
+/* transform de esticar */
+.exemplo:hover{
+    transform: skew(-30deg, -15deg);
+}
