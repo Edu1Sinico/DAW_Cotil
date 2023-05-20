@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40vh;
+}
+
+.quadrado {
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    animation: rodar;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease;
+}
+
+.quadrado:hover{
+    animation-play-state: paused;
+}
+
+@keyframes rodar{
+    from {
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(180deg);
+    }
+}
